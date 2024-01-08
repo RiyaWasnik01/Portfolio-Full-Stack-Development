@@ -1,6 +1,8 @@
-/*google font import statement*/
+/* Google Font Import Statements */
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Kanit:wght@300&family=Pathway+Extreme:wght@600&family=Ubuntu:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Kanit:wght@700&family=Pathway+Extreme:wght@700&family=Ubuntu&display=swap');
+
+/* Reset default margin and box-sizing */
 body
 {
 	margin: 0px;
@@ -24,6 +26,7 @@ body
   padding: 0.5rem 1rem;
 }
 
+/* My Name */
 .myname
 {
 	font-family: 'Anton', sant-serif;
@@ -34,44 +37,18 @@ body
 	color: #e68250;
 }
 
-.html
-{
-	scroll-behavior: smooth;
-}
-.mymenu
-{
-	text-transform: uppercase;
-	color: black;
-	font-weight: bolder;
-	font-size: 20px;
-	letter-spacing: 1.5px;
-}
-.mymenu:hover
-{
-	color: #8a8987;
-	color: #e68250;
-}
-#home
-{
-	margin-top: 70px;
-}
-.dv
-{
 
-	height: 500px;
-	width: 100%;
-	 align-items: center;
+/* HTML Scroll Behavior */
+html {
+    scroll-behavior: smooth;
 }
-.info
-{
-	margin-top: 10%;
-	margin-left: 5%;
-}
+
 .hminfo
 {
 	font-size: 30px;
 	color: black;
 }
+
 .hmname
 {
 	font-family: 'Anton', sant-serif;
@@ -81,165 +58,174 @@ body
 	
 	color: #e68250;
 }
-.cont
-{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: 0.5;
-}
-#home
-{
-	width: 100vw;
-	height: 400px;
-	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK4SYIq7vboPfk1OcmNxFvW9c_7UwSQt3D3g&usqp=CAU');
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: 80% -20px;
-}
-/*button styling*/
-.rsmbtn button
-{
-	height: 50px;
-	width: 130px;
-	border: none;
-	border-radius: 10px;
-	margin: 30px;
-	background-color: #e68250;
-	font-size: 20px;
-	color: white;
-}
-.rsmbtn button:hover
-{
-	transform: scale(1.2);
-	transition-duration: 1s;
-	border: 1px solid #e68250;
-	background-color: white;
-	color: #e68250;
-}
-.hd 
-{
-	font-size: 35px;
-	color: royalblue;
-	font-family: Arial Black;
-}
-.outerdiv
-{
-	height: 300px;
-	width: 100vw;
-	background-color: lightblue;
-	display: inline;
-}
-#about, #skills
-{
-	height: 300px;
-	width: 100vw;
-	background-color: #fcfcfc;
 
-}
-#about table
-{
-	margin-top: 30px;
-}
-.co
-{
-	font-size: 20px;
-	font-weight: bolder;
-	text-align: justify;
-	text-indent: 20%;
-	line-height: 36px;
-}
-.myimg
-{
-	border-radius: 100px;
-	width: 200px;
-}
-.myimg:hover
-{
-	transform: scale(1.3);
-	transition-duration: 2s;
-	box-shadow: 0px 0px 20px black;
-}
-#skills
-{
-	background-color: white;
-	margin-top: 30px;
-	height: 500px;
-}
-#skills table
-{
-	margin-top: 30px;
-}
-.tbl tr td 
-{
-	text-align: left;
-	padding-top: 0px;
 
-}
-.skillshead
-{
-	font-size: 23px;
-	font-weight: bolder;
-	font-variant: small-caps;
-	color: #e68250;
-	margin-bottom: 40px;
-	text-decoration: underline 2px solid #e68250;
-}
-td 
-{
-	padding: 20px;
 
+/* Menu Styling */
+.mymenu {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: 1.5px;
 }
-.tbl tr td p
-{
-	font-size: 20px;
-	margin-top: 20px;
-	color: #8a8987;
-	font-weight: bolder;
+
+.mymenu:hover {
+    color: #e68250; /* Changed the second color to match the primary color */
+}
+
+/* Home Section Styling */
+#home {
+    margin-top: 70px;
+    width: 100vw;
+    height: 400px;
+    background-image: url('https://contentstatic.techgig.com/photo/89790289.cms');
+    background-repeat: no-repeat;
+     background-size: 50% 90%; 
+    background-attachment: scroll;
+    background-position: 80% -10px;
 }
 
 
+
+
+/* Button Styling */
+.rsmbtn button {
+    height: 50px;
+    width: 130px;
+    border: none;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: #e68250;
+    font-size: 20px;
+    color: white;
+}
+
+.rsmbtn button:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+    border: 1px solid #e68250;
+    background-color: white;
+    color: #e68250;
+}
+
+/* Heading Styling */
+.hd {
+    font-size: 35px;
+    color: royalblue;
+    font-family: Arial Black;
+    text-align: center;
+}
+
+/* About and Skills Sections Styling */
+.outerdiv {
+    height: 300px;
+    width: 100vw;
+    background-color: lightblue;
+    display: inline;
+}
+
+#about,
+#skills {
+    height: 300px;
+    width: 100vw;
+    background-color: #fcfcfc;
+}
+
+/* About Section Text Styling */
+.co {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 36px;
+}
+
+/* Image Styling */
+.myimg {
+    border-radius: 100px;
+    width: 200px;
+    transition: transform 2s, box-shadow 2s;
+}
+
+.myimg:hover {
+    transform: scale(1.3);
+    box-shadow: 0px 0px 20px black;
+}
+
+/* Skills Section Styling */
+#skills {
+    background-color: white;
+    margin-top: 30px;
+    height: 500px;
+}
+
+/* Table Styling */
+#skills table {
+    margin-top: 30px;
+}
+
+.tbl tr td {
+    text-align: left;
+    padding-top: 0;
+    padding: 20px;
+}
+
+.tbl tr td p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #8a8987;
+    font-weight: bolder;
+}
+
+
+
+
+/* Project Section Styling */
 .projectsss {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 30px;
-    margin-bottom: 30px; /* Add margin to create space between sections */
+    margin-bottom: 30px;
 }
 
+/* Contact Section Styling */
 #cnt {
     padding: 100px;
     width: 100vw;
-    height: auto; /* Adjusted height */
-    background-color: #f9f9f9; /* Change background color */
+    height: auto;
+    background-color: #f9f9f9;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 15px; /* Add margin to create space between sections */
-    margin-bottom: 10px; /* Add margin to create space between sections */
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
+/* Card Deck Styling */
 .card-deck {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 60px;
-
+    margin-bottom: 80px;
 }
 
-.hd {
-    text-align: center;
+/* Card Styling */
+.card {
+    height: 300px;
+    width: 300px;
+/*    margin: 20px;*/
 }
 
-/* Adjust card image width and height */
 .card-img {
-    height: 200px; /* Adjusted height */
-    width: 300px; /* Adjusted width */
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
 }
 
-/* Additional styling for card title */
 .protitle {
     font-size: 23px;
     font-weight: bolder;
@@ -251,46 +237,38 @@ td
     text-decoration: underline 2px solid royalblue;
 }
 
+
+.card-body {
+    display: flex;
+    flex-direction: column; /* Display the card contents in a column */
+    align-items: center; /* Center align the content horizontally */
+    justify-content: center; /* Center align the content vertically */
+    height: 100%; /* Make the card body fill the entire card height */
+}
+
+/* Card Text Styling */
 .card-text {
     font-weight: bolder;
     color: #8a8987;
+    margin-top: -10px; /* Add space between the card title and text */
+    text-align: center; /* Center align the text */
 }
 
-.card-body {
-    padding: 20px;
-}
 
 
-
-
-
-#nextpro
-{
-	margin-top: 20px;
-}
-
-#cnt {
-    padding: 500px;
-    width: 100vw;
-    height: auto; /* Adjusted height */
-    background-color: #f9f9f9; /* Change background color */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
+/* Contact Form Container Styling */
 .contact-form-container {
     width: 95%;
     max-width: 600px;
-    margin: 20px auto; /* Added margin */
+    margin: 20px auto;
     padding: 30px;
     box-sizing: border-box;
-    background-color: #fff; /* Adjusted background color */
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Contact Form Styling */
 #contact-form {
     display: grid;
     gap: 15px;
@@ -330,10 +308,9 @@ button[type="submit"]:hover {
     background-color: #d56035;
 }
 
-@media screen and (max-width: 768px)
- {
-    .contact-form-container 
-    {
+/* Responsive Contact Form Container */
+@media screen and (max-width: 768px) {
+    .contact-form-container {
         width: 90%;
     }
 }
